@@ -3,237 +3,240 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shafat Hasan - Resume</title>
+    <title>Shafat Hasan - Portfolio</title>
     <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+    <div id="particles-js"></div>
     <div class="container">
-        <!-- Navigation -->
         <nav>
             <p>Shafat Hasan</p>
-            <a href="contact.html">Contact Shafat Hasan</a>
+            <a href="contact.html">Contact</a>
         </nav>
 
-        <!-- Hero Section -->
         <header>
-            <div class="hero-portrait">
-                <img src="images/Headshot_Personal.jpg" alt="Shafat Hasan headshot">
-            </div>
-            <div class="hero-content">
-                <h1>Shafat Hasan</h1>
-                <p class="hero-intro tagline">Computer Science Student at the University of Georgia with a passion for full-stack development and innovative technology solutions.</p>
-                <div class="hero-actions">
-                    <a href="#education" class="btn-primary">View Resume</a>
-                    <a href="contact.html" class="btn-secondary">Contact Shafat Hasan</a>
-                </div>
-                <div class="quick-facts">
-                    <span class="address">2015 Pinehurst View DR</span>
-                    <span>678-770-4662</span>
-                    <span>smh18904@uga.edu</span>
-                </div>
-            </div>
+            <h1 data-aos="fade-up" data-aos-delay="100">Hi, my name is</h1>
+            <h2 class="big-heading" data-aos="fade-up" data-aos-delay="200">Shafat Hasan.</h2>
+            <h3 class="subtitle" data-aos="fade-up" data-aos-delay="300">I build things for the web.</h3>
+            <p class="hero-intro" data-aos="fade-up" data-aos-delay="400">Full-Stack Developer & Software Engineer. I’m a computer science student specializing in building exceptional digital experiences.</p>
+            <a href="#experience" class="btn-primary" data-aos="fade-up" data-aos-delay="500">Check out my experience!</a>
         </header>
-        
-        <div class="scroll-cue"></div>
-        <!-- Education Section -->
-        <section id="education" class="animate-on-scroll">
-            <div class="section-header">
-                <div class="section-label">Academic</div>
-                <h2 class="section-title">Education</h2>
-                <div class="section-rule"></div>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">August 2022 - May 2026</div>
-                    <div class="timeline-content">
-                        <div class="timeline-title"><a href="https://www.uga.edu/">University of Georgia</a></div>
-                        <div class="timeline-description">Bachelor of Science in Computer Science</div>
-                        <div class="timeline-description">Expected May 2026 • GPA: 3.1</div>
+
+        <section id="about" data-aos="fade-up">
+            <h2 class="section-header">About Me</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                     <p>Computer Science graduate from the University of Georgia with experience building full-stack web applications, AI-integrated systems, and frontend user interfaces using React, TypeScript, Node.js, Java, and Python.</p>
+                     <p>Strong foundation in software engineering, REST APIs, responsive design, Git workflows, and algorithm analysis. Interested in full-stack engineering, scalable systems, AI applications, and product-focused development.</p>
+                     <a href="images/resume.pdf" class="btn-primary" download>Download Resume</a>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img src="images/Headshot_Personal.jpg" alt="Shafat Hasan headshot">
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Honors and Awards Section -->
-        <section class="animate-on-scroll">
-            <div class="section-header">
-                <div class="section-label">Recognition</div>
-                <h2 class="section-title">Honors and Awards</h2>
-                <div class="section-rule"></div>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">Fall 2022 - Present</div>
-                    <div class="timeline-content">
-                        <div class="timeline-title">UGA Foundation Fellowship</div>
-                        <div class="timeline-description">Academic merit scholarship for outstanding performance</div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">Fall 2022, Spring 2023</div>
-                    <div class="timeline-content">
-                        <div class="timeline-title">Dean's List</div>
-                        <div class="timeline-description">Recognition for academic excellence</div>
-                    </div>
-                </div>
+        <section id="skills" data-aos="fade-up">
+            <h2 class="section-header">Technical Skills</h2>
+            <ul class="skills-grid">
+                <li class="skill-pill">Java</li>
+                <li class="skill-pill">JavaScript</li>
+                <li class="skill-pill">TypeScript</li>
+                <li class="skill-pill">Python</li>
+                <li class="skill-pill">HTML & CSS</li>
+                <li class="skill-pill">React.js</li>
+                <li class="skill-pill">Node.js</li>
+                <li class="skill-pill">REST APIs</li>
+                <li class="skill-pill">Git & GitHub</li>
+            </ul>
+        </section>
+
+        <section id="experience" data-aos="fade-up">
+            <h2 class="section-header">Where I've Worked</h2>
+            <div class="experience-card">
+                <h3><span>Full-Stack Developer</span><span class="company">@ <a href="https://zyrova.com/" target="_blank" rel="noopener noreferrer">Zyrova Technologies</a></span></h3>
+                <p class="range">May 2025 – March 2026</p>
+                <ul>
+                    <li>Developed responsive full-stack web applications using React, TypeScript, Node.js, HTML, and CSS.</li>
+                    <li>Built reusable frontend components and integrated REST APIs to support scalable user experiences.</li>
+                    <li>Managed Git-based workflows, debugging, deployment support, and feature implementation across projects.</li>
+                </ul>
             </div>
         </section>
 
-        <!-- Leadership and Experience Section -->
-        <section class="animate-on-scroll">
-            <div class="section-header">
-                <div class="section-label">Experience</div>
-                <h2 class="section-title">Leadership and Experience</h2>
-                <div class="section-rule"></div>
-            </div>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-date">2023 - Present</div>
-                    <div class="timeline-content">
-                        <div class="timeline-title"><a href="https://test.zyrova.com/" target="_blank">Website Developer</a></div>
-                        <div class="timeline-description">Full-stack web development and project management</div>
-                    </div>
-                </div>
-                <div class="timeline-item">
-                    <div class="timeline-date">2022 - 2023</div>
-                    <div class="timeline-content">
-                        <div class="timeline-title">Volunteer at Mosque</div>
-                        <div class="timeline-description">Community service and event coordination</div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Skills Section -->
-        <section>
-            <div class="section-header">
-                <div class="section-label">Expertise</div>
-                <h2 class="section-title">Skills</h2>
-                <div class="section-rule"></div>
-            </div>
-            <div class="skills-grid">
-                <span class="skill-pill">HTML</span>
-                <span class="skill-pill">CSS</span>
-                <span class="skill-pill">JavaScript</span>
-                <span class="skill-pill">TypeScript</span>
-                <span class="skill-pill">Node.js</span>
-                <span class="skill-pill">Python</span>
-                <span class="skill-pill">Java</span>
-                <span class="skill-pill">React</span>
-                <span class="skill-pill">Git</span>
-                <span class="skill-pill">Bash</span>
-                <span class="skill-pill">Full Stack Development</span>
-            </div>
-        </section>
-
-        <!-- Projects Section -->
-        <section>
-            <div class="section-header">
-                <div class="section-label">Portfolio</div>
-                <h2 class="section-title">Projects</h2>
-                <div class="section-rule"></div>
-            </div>
-            <div class="projects-grid">
-                <div class="project-card animate-on-scroll">
-                    <img src="images/Proj1.jpg" alt="AI Face Scan project" class="project-image">
+        <section id="projects" data-aos="fade-up">
+            <h2 class="section-header">Some Things I’ve Built</h2>
+            <ul class="projects-grid">
+                <li class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title"><a href="https://test.zyrova.com/" target="_blank">AI Face Scan</a></h3>
-                        <ul class="project-highlights">
-                            <li>Computer vision and machine learning integration</li>
-                            <li>Real-time facial recognition and analysis</li>
-                            <li>Age estimation using deep learning models</li>
-                            <li>BMI calculation through facial feature analysis</li>
-                            <li>Face structure classification algorithms</li>
-                            <li>Ethnicity detection using trained datasets</li>
-                            <li>Hair type identification through image processing</li>
-                            <li>Built with Java, Node.js, and TypeScript</li>
-                        </ul>
-                        <div class="project-actions">
-                            <a href="https://test.zyrova.com/" target="_blank" class="btn-primary project-btn">View Live</a>
+                        <div>
+                            <p class="project-overline">AI and Computer Vision Application</p>
+                            <h3 class="project-title"><a href="https://test.zyrova.com/" target="_blank" rel="noopener noreferrer">All About You</a></h3>
+                            <div class="project-description">
+                                <p>Developed an AI-powered computer vision application integrating machine learning and facial recognition workflows. Implemented real-time face detection, feature extraction, and facial analysis pipelines using deep learning models.</p>
+                            </div>
+                            <ul class="project-tech-list">
+                                <li>Java</li>
+                                <li>Node.js</li>
+                                <li>TypeScript</li>
+                                <li>Python</li>
+                                <li>Machine Learning</li>
+                                <li>Computer Vision</li>
+                                <li>Deep Learning</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/proj2.jpg" alt="Gallery & Music App project" class="project-image">
-                    <div class="project-content">
-                        <h3 class="project-title">Gallery & Music App</h3>
-                        <ul class="project-highlights">
-                            <li>Image search functionality with API integration</li>
-                            <li>Dynamic gallery display with responsive design</li>
-                            <li>Music player with playlist management</li>
-                            <li>Shuffle mode and random playback features</li>
-                            <li>Search filtering and categorization system</li>
-                            <li>Media file handling and optimization</li>
-                            <li>User interface with modern design patterns</li>
-                            <li>Built with JavaScript, React, and Web Audio API</li>
-                        </ul>
+                    <div class="project-image">
+                        <a href="https://test.zyrova.com/" target="_blank" rel="noopener noreferrer">
+                            <img src="images/Proj1.jpg" alt="All About You project">
+                        </a>
                     </div>
-                </div>
-                <div class="project-card">
-                    <img src="images/proj3.jpg" alt="Algorithm Performance Analyzer project" class="project-image">
+                </li>
+                 <li class="project-card">
                     <div class="project-content">
-                        <h3 class="project-title">Algorithm Performance Analyzer</h3>
-                        <ul class="project-highlights">
-                            <li>Local file processing for any data type</li>
-                            <li>Multiple sorting algorithm implementations</li>
-                            <li>Performance benchmarking and time complexity analysis</li>
-                            <li>Efficiency comparison between different algorithms</li>
-                            <li>Memory usage tracking and optimization</li>
-                            <li>Statistical analysis and reporting features</li>
-                            <li>Support for large datasets and batch processing</li>
-                            <li>Built with C++, Python, and data visualization libraries</li>
-                        </ul>
+                        <div>
+                            <p class="project-overline">Full-Stack Media Application</p>
+                            <h3 class="project-title"><a href="#">Gallery & Music App</a></h3>
+                            <div class="project-description">
+                                <p>A full-stack media application combining dynamic image gallery functionality with a browser-based music player. Integrated external APIs to support image search and real-time content rendering.</p>
+                            </div>
+                            <ul class="project-tech-list">
+                                <li>React.js</li>
+                                <li>JavaScript</li>
+                                <li>Web Audio API</li>
+                                <li>REST APIs</li>
+                                <li>UI Design</li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                    <div class="project-image">
+                        <a href="#">
+                            <img src="images/proj2.jpg" alt="Gallery & Music App project">
+                        </a>
+                    </div>
+                </li>
+                 <li class="project-card">
+                    <div class="project-content">
+                        <div>
+                            <p class="project-overline">Data Structures and Benchmarking Tool</p>
+                            <h3 class="project-title"><a href="#">Algorithm Analyzer</a></h3>
+                            <div class="project-description">
+                                <p>Developed a benchmarking tool to analyze sorting algorithm performance across varying dataset sizes. Implemented multiple sorting algorithms and evaluated runtime efficiency, scalability, and memory utilization using Python.</p>
+                            </div>
+                            <ul class="project-tech-list">
+                                <li>Python</li>
+                                <li>Data Structures</li>
+                                <li>Algorithms</li>
+                                <li>Performance Benchmarking</li>
+                                <li>Data Visualization</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="project-image">
+                        <a href="#">
+                            <img src="images/proj3.jpg" alt="Algorithm Performance Analyzer project">
+                        </a>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        
+        <section id="education" data-aos="fade-up">
+            <h2 class="section-header">Education</h2>
+            <div class="education-card">
+                <h3>University of Georgia</h3>
+                <p class="degree">Bachelor of Science in Computer Science, May 2026</p>
+                <ul class="honors-list">
+                    <li>UGA Foundation Fellowship</li>
+                    <li>Dean’s List, Fall 2022 and Spring 2023</li>
+                    <li>Founder, Debate Club</li>
+                    <li>Member, Chess Club</li>
+                </ul>
             </div>
         </section>
 
-        <!-- Footer Section -->
         <footer>
             <div class="footer-content">
-                <a href="contact.html">Contact Shafat Hasan</a>
-                <span class="footer-divider">|</span>
-                <a href="https://www.linkedin.com/in/shafat-hasan-60982a381/" target="_blank" class="linkedin-link">
-                    <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
-                    </svg>
-                    LinkedIn
-                </a>
+                <a href="https://www.linkedin.com/in/shafat-hasan-60982a381/" target="_blank" rel="noopener noreferrer">Built by Shafat Hasan</a>
             </div>
         </footer>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
     <script>
-        // Scroll-triggered animations
-        const observerOptions = {
-            threshold: 0.1,
-            rootMargin: '0px 0px -50px 0px'
-        };
+        AOS.init({
+            duration: 800,
+            once: true
+        });
 
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate');
-                }
-            });
-        }, observerOptions);
-
-        // Observe all elements with animate-on-scroll class
-        document.addEventListener('DOMContentLoaded', () => {
-            const animateElements = document.querySelectorAll('.animate-on-scroll');
-            animateElements.forEach(el => observer.observe(el));
-
-            // Animate section rules on scroll
-            const sectionRules = document.querySelectorAll('.section-rule');
-            const ruleObserver = new IntersectionObserver((entries) => {
-                entries.forEach(entry => {
-                    if (entry.isIntersecting) {
-                        entry.target.classList.add('animate');
+        particlesJS("particles-js", {
+            "particles": {
+                "number": {
+                    "value": 50,
+                    "density": {
+                        "enable": true,
+                        "value_area": 800
                     }
-                });
-            }, { threshold: 0.5 });
-
-            sectionRules.forEach(rule => ruleObserver.observe(rule));
+                },
+                "color": {
+                    "value": "#ffffff"
+                },
+                "shape": {
+                    "type": "circle",
+                },
+                "opacity": {
+                    "value": 0.5,
+                    "random": false,
+                },
+                "size": {
+                    "value": 3,
+                    "random": true,
+                },
+                "line_linked": {
+                    "enable": true,
+                    "distance": 150,
+                    "color": "#ffffff",
+                    "opacity": 0.4,
+                    "width": 1
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 2,
+                    "direction": "none",
+                    "random": false,
+                    "straight": false,
+                    "out_mode": "out",
+                    "bounce": false,
+                }
+            },
+            "interactivity": {
+                "detect_on": "canvas",
+                "events": {
+                    "onhover": {
+                        "enable": true,
+                        "mode": "repulse"
+                    },
+                    "onclick": {
+                        "enable": true,
+                        "mode": "push"
+                    },
+                    "resize": true
+                },
+                "modes": {
+                    "repulse": {
+                        "distance": 100,
+                        "duration": 0.4
+                    },
+                    "push": {
+                        "particles_nb": 4
+                    },
+                }
+            },
+            "retina_detect": true
         });
     </script>
 </body>
